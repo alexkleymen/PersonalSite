@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  height: 100%;
+
+}
+
+
+body { 
+  height: 100%;
+  background: #C9D6FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.about {
+  margin: 15px 10% 0 10%;
+  font-size: 1.2rem;
+}
+
+.menuB { 
+  color: #4747d1;
+}
+
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  margin: 0 5px 0 5px;
+}
+img {
+  width: 100px;
+  height: 100px;
+
+}
+.caption {
+  display: block;
+}
+
+
+
+
