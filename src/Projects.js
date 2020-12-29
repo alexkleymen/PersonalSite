@@ -21,6 +21,14 @@ const useStyles = makeStyles((theme) => ({
         textAlign: 'center',
         color: theme.palette.text.secondary,
     },
+    grid : {
+        [theme.breakpoints.down('md')]: {
+            marginLeft: "0%"
+        },
+        [theme.breakpoints.up('md')] : {
+            marginLeft: "4%"
+        },
+    }
 }));
 
 const Projects = (props, ref) => {
@@ -28,13 +36,12 @@ const Projects = (props, ref) => {
 
     return (
         <div ref={ref} className={classes.root}>
-            <Grid container justify="center" spacing={3}>
-
-                <Grid item xs={12} style={{ textAlign: "center" }}>
-                    <Typography variant="h4" component="h2" gutterBottom>
+            <Typography variant="h4" component="h2" gutterBottom style={{textAlign: "center"}}>
                         Projects
                     </Typography>
-                </Grid>
+            <Grid className={classes.grid} style={{ marginTop: "20px"}} container justify="center" spacing={3}>
+
+            
 
                 <Grid item lg={6} xs={12}>
                     <ChatProject/>
