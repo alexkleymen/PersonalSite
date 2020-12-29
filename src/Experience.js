@@ -82,7 +82,7 @@ const Experience = (props, ref) => {
                             {bull} Lead initiatives to improve processes in business, organizational, and operational areas. <br/>
                             {bull} Facilitate optimal internal communications by serving as liaison between services organization and product development. <br/>
                             {bull} Developed MES system from scratch.<br/>
-                            {bull} Lead simulation development using javascript. <br/>
+                            {bull} Lead simulation development using javascript and python. <br/>
                         <br />
                         </Typography>
                     </CardContent>
