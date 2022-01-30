@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Education = (props, ref) => {
+const Volunteer = (props, ref) => {
   const classes = useStyles();
   const bull = <span className={classes.bullet}>•</span>;
 
@@ -55,7 +55,7 @@ const Education = (props, ref) => {
       <Grid container justify="center" spacing={3}>
         <Grid item xs={12} style={{ textAlign: "center" }}>
           <Typography variant="h4" component="h2" gutterBottom>
-            Education
+            Volunteer experience
           </Typography>
         </Grid>
 
@@ -66,14 +66,16 @@ const Education = (props, ref) => {
               color="textSecondary"
               gutterBottom
             >
-              MBA, Business Strategy, Entrepreneurship, Marketing, Innovation
-              and Digital Transformation
+              Mathematics Teacher <br />
+              Created a free educational environment for children from
+              underprivileged backgrounds, to help them achieve full
+              matriculation certificates.
             </Typography>
             <Typography variant="h5" component="h2">
-              ThePowerMBA
+              JDC (The Joint)
             </Typography>
             <Typography className={classes.pos} color="textSecondary">
-              2021 -
+              2014-2016
             </Typography>
           </CardContent>
         </Card>
@@ -85,13 +87,39 @@ const Education = (props, ref) => {
               color="textSecondary"
               gutterBottom
             >
-              B.Sc. in industrial and information system engineering
+              Tutor <br />
+              PERACH pairs up needy children from underprivileged backgrounds
+              with university students who act as their tutors, giving the child
+              personal attention (often sorely lacking) and serving as a role
+              model. The care that PERACH children receive from their mentors,
+              helps them realize their potential and blossom into motivated
+              individuals.
             </Typography>
             <Typography variant="h5" component="h2">
-              Ort braude college of engineering
+              Perach - Tutorial Project
             </Typography>
             <Typography className={classes.pos} color="textSecondary">
-              2012 — 2016
+              2014-2016
+            </Typography>
+          </CardContent>
+        </Card>
+
+        <Card className={classes.card}>
+          <CardContent>
+            <Typography
+              className={classes.title}
+              color="textSecondary"
+              gutterBottom
+            >
+              Guest Lecturer <br />
+              advanced topics in software development in LOW CODE, Agile
+              framework 3 and System design
+            </Typography>
+            <Typography variant="h5" component="h2">
+              Shenkar - Engineering. Design. Art.
+            </Typography>
+            <Typography className={classes.pos} color="textSecondary">
+              2021
             </Typography>
           </CardContent>
         </Card>
@@ -100,4 +128,4 @@ const Education = (props, ref) => {
   );
 };
 
-export default React.forwardRef(Education);
+export default React.forwardRef(Volunteer);

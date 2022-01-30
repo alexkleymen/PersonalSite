@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Education = (props, ref) => {
+const Certification = (props, ref) => {
   const classes = useStyles();
   const bull = <span className={classes.bullet}>•</span>;
 
@@ -55,7 +55,7 @@ const Education = (props, ref) => {
       <Grid container justify="center" spacing={3}>
         <Grid item xs={12} style={{ textAlign: "center" }}>
           <Typography variant="h4" component="h2" gutterBottom>
-            Education
+            Certifications
           </Typography>
         </Grid>
 
@@ -66,14 +66,14 @@ const Education = (props, ref) => {
               color="textSecondary"
               gutterBottom
             >
-              MBA, Business Strategy, Entrepreneurship, Marketing, Innovation
-              and Digital Transformation
+              Intermediate Developer <br />
+              ID: 28654
             </Typography>
             <Typography variant="h5" component="h2">
-              ThePowerMBA
+              Mendix
             </Typography>
             <Typography className={classes.pos} color="textSecondary">
-              2021 -
+              2021
             </Typography>
           </CardContent>
         </Card>
@@ -85,13 +85,14 @@ const Education = (props, ref) => {
               color="textSecondary"
               gutterBottom
             >
-              B.Sc. in industrial and information system engineering
+              Rapid Developer <br />
+              ID:27723
             </Typography>
             <Typography variant="h5" component="h2">
-              Ort braude college of engineering
+              Mendix
             </Typography>
             <Typography className={classes.pos} color="textSecondary">
-              2012 — 2016
+              2021
             </Typography>
           </CardContent>
         </Card>
@@ -100,4 +101,4 @@ const Education = (props, ref) => {
   );
 };
 
-export default React.forwardRef(Education);
+export default React.forwardRef(Certification);
